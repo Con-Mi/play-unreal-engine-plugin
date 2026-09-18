@@ -20,7 +20,7 @@ public class PlayInAppReviews : ModuleRules
 {
 	public PlayInAppReviews(ReadOnlyTargetRules Target) : base(Target)
 	{
-		CppStandard = CppStandardVersion.Cpp17;
+		CppStandard = CppStandardVersion.Cpp20;
 
 		PublicIncludePathModuleNames.AddRange(
 			new string[] { "Launch" }
